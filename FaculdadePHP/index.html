@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarefa faculdade</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <section class="containerLogo">
+        <div>
+            <h1>Tabela</h1>
+            <form action="view.php" method="post">
+                <p><input class="button" type=submit value="Verificar tabela"></p>
+            </form>
+        </div>
+        <div>
+            <form action="delete.php" method="post">
+                <h4>Excluir produto da tabela</h4>
+                <p>ID: <input type="text" name="ID"></p>
+                <p><input class="button" type=submit value="excluir da tabela"></p>
+            </form>
+        </div>
+        <div>
+            <form action="add.php" method="post">
+                <h4>Adicionar produto na tabela</h4>
+                <p>Nome: <input type="text" name="Nome"></p>
+                <p>Descrição: <input type="text" name="Descricao"></p>
+                <p>Prateleira: <input type="text" name="Prateleira"></p>
+                <p><input class="button" type=submit value="enviar"></p>
+            </form>
+        </div>
+
+        <div>
+            <form action="atualiza.php" method="post">
+                <h4>Atualizar produto da tabela</h4>
+                <p>ID que ira mudar: <input type="text" name="ID"></p>
+                <h4>Atualize o ID selecionado</h4>
+                <p>Nome: <input type="text" name="Nome"></p>
+                <p>Descrição: <input type="text" name="Descricao"></p>
+                <p>Prateleira: <input type="text" name="Prateleira"></p>
+                <p><input class="button" type=submit value="enviar"></p>
+            </form>
+        </div>
+    </section>
+    </div>
+</body>
+
+</html>
