@@ -13,10 +13,11 @@
     <div>
         <section class="containerTabela2">
             <?php
-            $endereço = '167.99.252.245';
-            $usuario = 'BSI_E4';
-            $senha = 'bsi@e42022';
-            $bd = 'BSI_E4_LU';
+            $endereço = '';
+            $usuario = '';
+            $senha = '';
+            $bd = '';
+
 
             $connect = mysqli_connect($endereço, $usuario, $senha, $bd);
             $qry = "SELECT * FROM Produtos";
